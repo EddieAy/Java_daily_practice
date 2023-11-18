@@ -6,7 +6,7 @@ import java.io.File;
 public class TestCopy {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        Copy.copyAll("F:\\Teacher Eleonor Meets the Army","F:\\zera\\test");
+        Copy.copyAll("F:\\zera\\PIECE","F:\\zera\\test");
 
 //        File f1 = new File("F:\\Teacher Eleonor Meets the Army");
 //        System.out.println(f1.isFile());

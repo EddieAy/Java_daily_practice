@@ -12,10 +12,12 @@ public class Copy {
 
 
         File f1 = new File(src);
-//        File dsrFileCheck = new File(dst);
-//        if(dsrFileCheck.isFile()){
-//            throw new IllegalPathStateException();
-//        }
+        File f2 = new File(dst);
+        String f2_name = f2.getName();
+        if (!f2_name.contains(".")){
+            f2.mkdir();
+        }
+
         if (!f1.isFile() & !f1.isDirectory()){
 //            System.out.println("Illegal path");
             throw new IllegalPathStateException();
@@ -26,12 +28,18 @@ public class Copy {
             FileInputStream fis = null;
             FileOutputStream fos = null;
             File fileToSave = new File(dst);
-
+//            System.out.println(fileToSave.exists());
             try {
                 fileToSave.createNewFile();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+//            System.out.println(fileToSave.getAbsolutePath());
+//            try {
+//                fileToSave.createNewFile();
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
 
             try {
 //                bfr = new BufferedReader(new FileReader(f1));
@@ -70,7 +78,8 @@ public class Copy {
                 for (String fileString:fileArray){
                     File sourceFile = new File(src, fileString);
                     File destinationFile = new File(dst, fileString);
-
+                    System.out.println(sourceFile.getPath());
+                    System.out.println(destinationFile.getPath());
                     copyAll(sourceFile.getPath(), destinationFile.getPath());
                 }
             }
