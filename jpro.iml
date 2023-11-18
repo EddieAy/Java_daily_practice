@@ -3,7 +3,30 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.23" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.26" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.27" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.28" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10.29" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11.9" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
