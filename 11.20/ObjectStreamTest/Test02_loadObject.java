@@ -5,7 +5,7 @@ import java.io.ObjectInputStream;
 
 public class Test02_loadObject {
     public static void main(String[] args) throws Exception{
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("students"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("student"));
 
         Object o1 = ois.readObject();
         System.out.println(o1);

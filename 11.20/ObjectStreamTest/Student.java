@@ -1,11 +1,18 @@
 package ObjectStreamTest;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
 public class Student implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = 2L;
     transient String name;
     int id;
+
+    private String family;
+    private String family2;
 
     public Student() {
     }
