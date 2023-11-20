@@ -13,9 +13,12 @@ public class Copy {
 
         File f1 = new File(src);
         File f2 = new File(dst);
-        String f2_name = f2.getName();
-        if (!f2_name.contains(".")){
-            f2.mkdir();
+//        String f2_name = f2.getName();
+//        if (!f2_name.contains(".")){
+//            f2.mkdir();
+//        }
+        if(f1.isDirectory()){
+            f2.mkdirs();
         }
 
         if (!f1.isFile() & !f1.isDirectory()){
@@ -28,7 +31,7 @@ public class Copy {
             FileInputStream fis = null;
             FileOutputStream fos = null;
             File fileToSave = new File(dst);
-//            System.out.println(fileToSave.exists());
+//            System.out.println(f1.getAbsolutePath());
             try {
                 fileToSave.createNewFile();
             } catch (IOException e) {
