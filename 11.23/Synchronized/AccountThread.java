@@ -11,7 +11,10 @@ public class AccountThread implements Runnable{
     @Override
     public void run() {
         double withdrawalAmount = 5000.0;
-        act.withdrawalMoney(withdrawalAmount);
+        synchronized (act){
+            act.withdrawalMoney(withdrawalAmount);
+
+        }
 
 
 

@@ -33,7 +33,7 @@ public class Account {
         if (money > this.getBalance() || money <= 0){
             throw new IllegalArgumentException("Invalid withdrawal money amount");
         }else {
-            synchronized (obj){
+//            synchronized (obj){
                 double after = this.getBalance() - money;
 
                 try {
@@ -44,7 +44,7 @@ public class Account {
                 System.out.println("After withdrawal, " + Thread.currentThread().getName() + " has " + this.getBalance());
 
                 this.setBalance(after);
-            }
+//            }
         }
     }
 }
